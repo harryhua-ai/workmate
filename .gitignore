@@ -134,7 +134,7 @@ ui/src/ui/theme-variants.browser.test.ts
 ui/src/ui/__screenshots__
 ui/src/ui/views/__screenshots__
 ui/.vitest-attachments
-docs/superpowers
+
 
 # Generated docs baseline artifacts (locally generated, only hashes tracked)
 docs/.generated/*.json
@@ -150,3 +150,6 @@ test/fixtures/openclaw-vitest-unit-report.json
 analysis/
 .artifacts/qa-e2e/
 extensions/qa-lab/web/dist/
+
+# AWS SP Assistant (独立项目，不走 openclaw 主仓库流程)
+aws-sp-assistant/
